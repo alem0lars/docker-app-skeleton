@@ -52,8 +52,8 @@ RUN apk add --update --no-cache logrotate
 
 RUN mv /etc/periodic/daily/logrotate /etc/periodic/hourly/logrotate
 
-# Add glastopf-specific logrotate configuration.
-ADD dist/logrotate.conf /etc/logrotate.d/glastopf
+# Add MYAPP-specific logrotate configuration.
+ADD dist/logrotate.conf /etc/logrotate.d/MYAPP
 
 # == RSYSLOG ===================================================================
 
