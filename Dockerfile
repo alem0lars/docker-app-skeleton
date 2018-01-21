@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-MAINTAINER Alessandro Molari <alessandro.molari@yoroi.company> (alem0lars)
+MAINTAINER Alessandro Molari <molari.alessandro@gmail.com> (alem0lars)
 
 # == BASIC SOFTWARE ============================================================
 
